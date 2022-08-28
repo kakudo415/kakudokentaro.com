@@ -1,0 +1,40 @@
+header {
+  border-bottom: 1px solid #0001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header > h1 {
+  padding: 1rem 1rem 0.5rem;
+  font-weight: bold;
+}
+
+header > nav {
+  display: flex;
+  padding: 0 0.5rem;
+}
+
+header > nav > a {
+  display: block;
+  padding: 0.5rem;
+}
+
+main {
+  margin-top: 73px;
+}
+
+main > div#profile {
+  padding: 1rem;
+  border-bottom: 1px solid #0001;
+}
+
+main > div#profile > h2 {
+  font-weight: bold;
+}
+
+main > div#profile > div.name {
+  display: flex;
+  align-items: center;
+}
