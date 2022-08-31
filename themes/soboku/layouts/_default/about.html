@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/assets/css/about.css">
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+    <main>
+      <div class="inner">
+        <h1>覚道健太郎</h1>
+        {{ .Content }}
+      </div>  
+    </main>
+  </body>
+</html>
