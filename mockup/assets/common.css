@@ -21,6 +21,7 @@ header > div.inner {
 }
 
 header > div.inner h1 {
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -30,4 +31,11 @@ main {
 
 p {
   line-height: 1.5rem;
+}
+
+@media (min-width: 960px) {
+  main > div.inner {
+    margin: 0 auto;
+    width: 960px;
+  }
 }
