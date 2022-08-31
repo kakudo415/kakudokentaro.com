@@ -5,28 +5,23 @@ html {
 header {
   background: #FFFF;
   border-bottom: 1px solid #0001;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 3rem;
-  width: 100%;
 }
 
 header > div.inner {
+  height: 4rem;
   padding: 0 1rem;
-  height: 100%;
-  width: 100%;
   display: flex;
   align-items: center;
 }
 
 header > div.inner h1 {
+  margin-right: auto;
   font-size: 1.25rem;
   font-weight: bold;
 }
 
-main {
-  margin-top: 3rem;
+header > div.inner > a {
+  margin-left: 1rem;
 }
 
 p {

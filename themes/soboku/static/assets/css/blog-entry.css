@@ -1,29 +1,5 @@
-header {
-  height: 6rem;
-}
-
-header > div.inner {
-  height: 3rem;
-  border-bottom: 1px solid #0001;
-}
-
-header nav {
-  display: flex;
-  align-items: center;
-}
-
-header nav a {
-  display: block;
-  padding: 0.5rem 0;
-  margin-right: 1rem;
-}
-
-main {
-  margin-top: 6rem;
-}
-
 main > div.inner {
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
 }
 
 main h1 {
