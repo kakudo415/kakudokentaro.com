@@ -1,0 +1,36 @@
+html {
+  color: #000C;
+}
+
+header {
+  background: #FFFF;
+  border-bottom: 1px solid #0001;
+}
+
+header > div.inner {
+  height: 4rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+header > div.inner h1 {
+  margin-right: auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+header > div.inner > a {
+  margin-left: 1rem;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+@media (min-width: 960px) {
+  main > div.inner {
+    margin: 0 auto;
+    width: 960px;
+  }
+}

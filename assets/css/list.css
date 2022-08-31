@@ -1,0 +1,27 @@
+div.inner > h2 {
+  margin: 2rem 0 0.5rem 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+div.inner > h3 {
+  margin: 2rem 0 0.5rem 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+div.inner > div {
+  padding: 1rem 1rem;
+}
+
+div.inner > div h4 {
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+div.inner > div time {
+  display: block;
+  font-size: 0.875rem;
+  color: #000A;
+}
