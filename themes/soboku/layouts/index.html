@@ -2,14 +2,14 @@
 <html>
   <head>
     {{ partial "head.html" . }}
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/index.css">
   </head>
   <body>
     {{ partial "header.html" . }}
     <main>
       <div class="inner profile">
         <div class="profile-header">
-          <img src="/assets/icon.svg" alt="icon">
+          <img src="{{ .Site.BaseURL }}assets/icon.svg" alt="icon">
           <h1>
             <ruby>覚道
               <rp>（</rp>
