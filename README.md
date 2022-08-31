@@ -19,6 +19,12 @@
 - /blog/2022/08/28
 - /blog/2022/08/28/short-title
 
+### 先行事例
+
+- https://www.w3.org/blog/2022/08/https-redirection-observations/
+
+W3Cがこのスタイルだからこれで良いじゃん！
+
 ## CMS
 
 アクセスごとに、
