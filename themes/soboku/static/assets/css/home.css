@@ -1,5 +1,5 @@
 div.inner.profile {
-  padding: 1rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .profile-header {
@@ -28,6 +28,10 @@ div.inner.profile {
 .latest-posts > div {
   padding: 1rem 1rem;
   border-bottom: 1px solid #0001;
+}
+
+.latest-posts > div:last-child {
+  border-bottom: none;
 }
 
 .latest-posts > div h2 {
