@@ -1,3 +1,7 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://kakudo415.com/'
+languageCode = 'ja-jp'
+title = 'Kakudo Kentaro'
+theme = "soboku"
+
+[permalinks]
+  'blog' = '/:sections/:year/:month/:day/:filename/'
