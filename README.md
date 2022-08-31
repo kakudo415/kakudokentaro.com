@@ -4,34 +4,16 @@
 
 ### ドメイン
 
-- kakudo415.com
-- kakudo.dev
-- kakudokentaro.com
+`kakudo415.com`
+
+`kakudokentaro.com` 等も考慮したが、N高Slack等の書き換え不能な場所で上記のドメインを宣伝していたため、「変えないこと」の方が重要だと考えた。
 
 ### パス名
 
-- /
-- /about
-- /contact
-- /blog
-- /blog/2022
-- /blog/2022/08
-- /blog/2022/08/28
-- /blog/2022/08/28/short-title
+W3Cのブログが次のような設計であるため、これに倣う。
 
-### 先行事例
+`https://www.w3.org/blog/2022/08/https-redirection-observations/`
 
-- https://www.w3.org/blog/2022/08/https-redirection-observations/
+日付だけ無いのは不自然なため、以下のようにする。
 
-W3Cがこのスタイルだからこれで良いじゃん！
-
-## CMS
-
-アクセスごとに、
-1. 対応するHTMLファイルがあるか確かめる。
-   1. あった場合、原稿更新日時とHTMLファイル生成日時を比較する。
-      1. 原稿更新日時以降にHTMLファイルが生成されていれば、そのHTMLファイルを返す。
-      2. HTML生成後に再度原稿が更新されていれば、生成し直して返す。
-   2. なかった場合は、対応する原稿があるか確かめる。
-      1. あった場合は、HTMLファイルを生成して返す。
-      2. なかった場合は、404。
+`https://kakudo415.com/blog/2022/09/01/short-title/`
