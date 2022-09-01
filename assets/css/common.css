@@ -27,6 +27,11 @@ p {
   line-height: 1.5rem;
 }
 
+img {
+  height: auto;
+  width: 100%;
+}
+
 @media (min-width: 960px) {
   main > div.inner {
     margin: 0 auto;
