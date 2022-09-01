@@ -4,3 +4,8 @@
 <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/common.css">
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}assets/favicon.svg" type="image/svg+xml">
 <title>{{ if not .IsHome -}} {{- .Page.Title }} - {{ end  -}} {{- .Site.Title }}</title>
+<!-- OGP -->
+<meta property="og:title" content="{{ if not .IsHome -}} {{- .Page.Title }} - {{ end  -}} {{- .Site.Title }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ .Site.BaseURL }}assets/icon.png">
+<meta property="og:url" content="{{ .Permalink }}">
