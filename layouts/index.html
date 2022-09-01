@@ -20,17 +20,17 @@
           <a href="{{ .Site.BaseURL }}about/" class="readmore">About Me</a>
         </div>
       </div>
-      <div class="inner latest-posts">
-        {{ $latest := where .Site.RegularPages "Section" "blog" }}
-        {{ range first 5 $latest }}
-          <div>
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-          </div>
+      <div class="inner recent">
+        {{ $recent := where .Site.RegularPages "Section" "blog" }}
+        {{ range first 5 $recent }}
+        <div>
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        </div>
         {{ end }}
-          <div>
-            <a href="{{ .Site.BaseURL }}blog/" class="readmore">More Blog Posts</a>
-          </div>
+        <div>
+          <a href="{{ .Site.BaseURL }}blog/" class="readmore">More Blog Posts</a>
+        </div>
       </div>  
     </main>
   </body>

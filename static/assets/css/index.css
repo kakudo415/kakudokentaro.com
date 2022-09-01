@@ -14,17 +14,17 @@ div.inner.profile > div {
   border-radius: 50%;
 }
 
-.latest-posts > div {
+.recent > div {
   padding: 1rem 1rem;
 }
 
-.latest-posts > div h2 {
+.recent > div h2 {
   margin-bottom: 0.75rem;
   font-weight: bold;
   line-height: 1.5rem;
 }
 
-.latest-posts > div time {
+.recent > div time {
   display: block;
   font-size: 0.875rem;
   color: #000A;

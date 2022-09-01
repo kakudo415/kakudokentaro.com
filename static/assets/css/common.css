@@ -38,3 +38,10 @@ img {
     width: 960px;
   }
 }
+
+@media (min-width: 1440px) {
+  header > div.inner {
+    margin: 0 auto;
+    width: 1440px;
+  }
+}
