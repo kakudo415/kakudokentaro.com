@@ -4,7 +4,6 @@ html {
 
 header {
   background: #FFFF;
-  border-bottom: 1px solid #0001;
 }
 
 header > div.inner {
@@ -33,15 +32,13 @@ img {
 }
 
 @media (min-width: 960px) {
-  main > div.inner {
+  header > div.inner {
     margin: 0 auto;
     width: 960px;
   }
-}
 
-@media (min-width: 1440px) {
-  header > div.inner {
+  main > div.inner {
     margin: 0 auto;
-    width: 1440px;
+    width: 960px;
   }
 }
