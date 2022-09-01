@@ -1,7 +1,6 @@
 baseURL = 'https://kakudokentaro.com/'
 languageCode = 'ja-jp'
 title = 'Kakudo Kentaro'
-theme = "soboku"
 disableKinds = ["RSS", "sitemap"]
 
 [permalinks]
