@@ -37,3 +37,7 @@ main p {
 main a {
   text-decoration: underline;
 }
+
+main a:hover {
+  text-decoration: none;
+}

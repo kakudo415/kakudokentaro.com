@@ -1,28 +1,17 @@
-div.inner.profile {
-  padding: 2rem 1rem;
+div.inner.profile > div {
+  padding: 1rem 1rem;
 }
 
 .profile-header {
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .profile-header img {
   margin-right: 1rem;
-  width: 3rem;
+  width: 2.5rem;
   border-radius: 50%;
-}
-
-.profile-header h1 {
-  font-size: 1.25rem;
-}
-
-.profile-header rt {
-  font-size: 0.625rem;
-}
-
-.self-introduction {
-  margin-top: 0.75rem;
 }
 
 .latest-posts > div {
@@ -39,4 +28,12 @@ div.inner.profile {
   display: block;
   font-size: 0.875rem;
   color: #000A;
+}
+
+a.readmore {
+  text-decoration: underline;
+}
+
+a.readmore:hover {
+  text-decoration: none;
 }
