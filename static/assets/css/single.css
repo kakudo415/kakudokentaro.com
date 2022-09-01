@@ -38,6 +38,10 @@ main a {
   text-decoration: underline;
 }
 
+main a:hover {
+  text-decoration: none;
+}
+
 main pre > code {
   display: block;
   width: 100%;
