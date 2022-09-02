@@ -1,31 +1,47 @@
-div.inner.introduction > div {
-  padding: 1rem 1rem;
+main > div.inner {
+  padding: 0 1rem;
 }
 
-div.inner.recent {
-  margin-top: 2.5rem;
+/* Self Introduction */
+
+section.introduction {
+  margin-bottom: 4rem;
 }
 
-div.inner.recent > div {
-  padding: 1rem 1rem;
+section.introduction p {
+  margin-bottom: 1rem;
 }
 
-div.inner.recent > div h2 {
-  margin-bottom: 0.75rem;
+section.introduction a {
+  text-decoration: underline;
+}
+section.introduction a:hover {
+  text-decoration: none;
+}
+
+/* Recent Posts */
+
+section.recent-posts > a.post {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+section.recent-posts > a.post > h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
-div.inner.recent > div time {
+section.recent-posts > a.post > time {
   display: block;
   font-size: 0.875rem;
   color: #000A;
 }
 
-a.readmore {
-  text-decoration: underline;
-}
-
-a.readmore:hover {
-  text-decoration: none;
+@media (min-width: 960px) {
+  section.recent-posts > a.post > h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
 }
