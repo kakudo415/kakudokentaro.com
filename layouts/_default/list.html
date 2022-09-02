@@ -16,10 +16,10 @@
               <section class="monthly">
                 <h3>{{ .Key }}</h3>
                 {{ range .Pages }}
-                  <a href="{{ .Permalink }}" class="post">
-                    <h4>{{ .Title }}</h2>
+                  <article>
+                    <h4><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
                     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-                  </a>
+                  </article>
                 {{ end }}
               </section>
             {{ end }}

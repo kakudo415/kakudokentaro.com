@@ -18,10 +18,10 @@
           {{ $blog := where .Site.RegularPages "Section" "blog" }}
           {{ $recent := first 5 $blog }}
           {{ range $blog }}
-            <a href="{{ .Permalink }}" class="post">
-              <h2>{{ .Title }}</h2>
+            <article>
+              <h2><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
               <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-            </a>
+            </article>
           {{ end }}
         </section>
       </div>
