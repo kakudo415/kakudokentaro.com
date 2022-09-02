@@ -17,26 +17,24 @@ section.introduction a:hover {
 
 /* Recent Posts */
 
-section.recent-posts > a.post {
-  display: block;
+section.recent-posts > article {
   margin-bottom: 2rem;
 }
 
-section.recent-posts > a.post > h2 {
+section.recent-posts > article > h2 {
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
   font-weight: bold;
   line-height: 2rem;
 }
 
-section.recent-posts > a.post > time {
-  display: block;
+section.recent-posts > article > time {
   font-size: 0.875rem;
   color: #000A;
 }
 
 @media (min-width: 960px) {
-  section.recent-posts > a.post > h2 {
+  section.recent-posts > article > h2 {
     margin-bottom: 0.75rem;
     font-size: 1.25rem;
   }
