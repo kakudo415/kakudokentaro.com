@@ -23,6 +23,10 @@ header > div.inner > a {
   margin-left: 1rem;
 }
 
+main > div.inner {
+  padding: 0 1rem;
+}
+
 p {
   line-height: 2rem;
 }

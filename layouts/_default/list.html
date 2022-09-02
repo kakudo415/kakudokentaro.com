@@ -7,21 +7,25 @@
   <body>
     {{ partial "header.html" . }}
     <main>
-      {{ $blog := where .Site.RegularPages "Section" "blog" }}
-      {{ range $blog.GroupByDate "2006" }}
-        <div class="inner">
-          <h2>{{ .Key }}</h2>
-          {{ range .Pages.GroupByDate "01"}}
-            <h3>{{ .Key }}</h3>
-            {{ range .Pages }}
-              <div>
-                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-              </div>
+      <div class="inner">
+        {{ $blog := where .Site.RegularPages "Section" "blog" }}
+        {{ range $blog.GroupByDate "2006" }}
+          <section class="yearly">
+            <h2>{{ .Key }}</h2>
+            {{ range .Pages.GroupByDate "01"}}
+              <section class="monthly">
+                <h3>{{ .Key }}</h3>
+                {{ range .Pages }}
+                  <a href="{{ .Permalink }}" class="post">
+                    <h4>{{ .Title }}</h2>
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+                  </a>
+                {{ end }}
+              </section>
             {{ end }}
-          {{ end }}
-        </div>  
-      {{ end }}
+          </section>
+        {{ end }}
+      </div>  
     </main>
   </body>
 </html>
