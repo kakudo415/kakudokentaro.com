@@ -2,7 +2,7 @@ main h1 {
   margin: 0 0 0.75rem;
   font-size: 1.5rem;
   font-weight: bold;
-  line-height: 2rem;
+  line-height: 2.5rem;
 }
 
 main time {
@@ -51,4 +51,23 @@ main pre > code {
 main code {
   margin: 0 0.25rem;
   font: 0.8rem monospace;
+}
+
+@media (min-width: 960px) {
+  main h1 {
+    font-size: 1.75rem;
+    line-height: 3rem;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+  }
+  
+  main h3 {
+    font-size: 1.25rem;
+  }
+
+  main time {
+    font-size: 1rem;
+  }
 }
