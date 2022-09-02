@@ -5,12 +5,13 @@ div.inner > h2 {
 }
 
 div.inner > h3 {
-  margin: 2rem 0 0.5rem 1rem;
+  margin: 2rem 0 0.5rem 1.5rem;
   font-weight: bold;
   line-height: 1rem;
 }
 
 div.inner > div {
+  margin: 0 0 0 1rem;
   padding: 1rem 1rem;
 }
 
