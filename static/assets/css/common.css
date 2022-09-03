@@ -55,8 +55,7 @@ a.unread-marker::after {
 }
 
 a.unread-marker:visited::after {
-  /* FIXME: display: none; が効かない！ */
-  background: #FFF0;
+  background: #FFF;
 }
 
 @media (min-width: 960px) {
