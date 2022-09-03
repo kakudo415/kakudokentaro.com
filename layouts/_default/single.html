@@ -11,6 +11,10 @@
         <h1>{{ .Title }}</h1>
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02 15:04" }}</time>
         {{ .Content }}
+        <section class="share">
+          <div>Share on</div>
+          <a href="https://twitter.com/intent/tweet?text={{ .Page.Title }} - {{ .Site.Title }}&url={{ .Permalink }}" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
+        </section>
       </div>  
     </main>
   </body>
