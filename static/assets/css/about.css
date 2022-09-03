@@ -1,18 +1,8 @@
-main > div.inner {
-  padding: 2rem 1rem;
-}
-
 main h1 {
-  margin: 0 0 1rem;
+  margin: 0 0 0.75rem;
   font-size: 1.5rem;
   font-weight: bold;
-  line-height: 2rem;
-}
-
-main time {
-  margin: 0 0 2rem;
-  display: block;
-  color: #000A;
+  line-height: 2.5rem;
 }
 
 main h2 {
@@ -40,4 +30,19 @@ main a {
 
 main a:hover {
   text-decoration: none;
+}
+
+@media (min-width: 960px) {
+  main h1 {
+    font-size: 1.75rem;
+    line-height: 3rem;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+  }
+  
+  main h3 {
+    font-size: 1.25rem;
+  }
 }
