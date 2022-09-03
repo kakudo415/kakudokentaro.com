@@ -39,6 +39,10 @@ main a:hover {
   text-decoration: none;
 }
 
+main pre {
+  margin-bottom: 2rem;
+}
+
 main pre > code {
   display: block;
   width: 100%;
@@ -51,6 +55,11 @@ main pre > code {
 main code {
   margin: 0 0.25rem;
   font: 0.8rem monospace;
+}
+
+main blockquote {
+  border-left: 0.25rem solid #0003;
+  padding-left: 1rem;
 }
 
 @media (min-width: 960px) {
