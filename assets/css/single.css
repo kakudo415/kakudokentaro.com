@@ -62,6 +62,30 @@ main blockquote {
   padding-left: 1rem;
 }
 
+main section.share {
+  margin: 3rem 0 2rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+main section.share > div {
+  margin-right: 1rem;
+  padding: 0.5rem 0;
+}
+
+main section.share > a {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #0003;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+main section.share > a:hover {
+  border: 1px solid #000A;
+}
+
 @media (min-width: 960px) {
   main h1 {
     font-size: 1.75rem;
