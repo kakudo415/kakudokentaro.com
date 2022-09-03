@@ -16,4 +16,4 @@ W3Cのブログが次のような設計であるため、これに倣う。
 
 日付だけ無いのは不自然なため、以下のようにする。
 
-`https://kakudo415.com/blog/2022/09/01/short-title/`
+`https://kakudokentaro.com/blog/2022/09/01/short-title/`
