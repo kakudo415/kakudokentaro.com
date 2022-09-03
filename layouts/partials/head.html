@@ -1,6 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://kakudo415.github.io/null.css/2.4.css">
+<link rel="preload" href="{{ .Site.BaseURL }}assets/fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ .Site.BaseURL }}assets/fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/null-2.4.css">
 <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/common.css">
 <link rel="shortcut icon" href="{{ .Site.BaseURL }}assets/favicon.svg" type="image/svg+xml">
 <title>{{ if not .IsHome -}} {{- .Page.Title }} - {{ end  -}} {{- .Site.Title }}</title>
