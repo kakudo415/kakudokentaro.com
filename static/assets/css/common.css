@@ -1,9 +1,12 @@
+@import url('https://rsms.me/inter/inter.css');
+
 html {
   color: #000C;
 }
 
 header {
   margin-bottom: 3rem;
+  font-family: 'Inter', sans-serif;
 }
 
 header > div.inner {
@@ -34,6 +37,10 @@ p {
 img {
   height: auto;
   width: 100%;
+}
+
+time {
+  font-family: 'Inter', sans-serif;
 }
 
 /* inline-blockにして、行末に付けられたらベストかも？（上手く行の中心にできない） */

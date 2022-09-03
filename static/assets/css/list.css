@@ -1,11 +1,13 @@
 section.yearly > h2 {
   margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
   font-size: 1.75rem;
   font-weight: bold;
 }
 
 section.monthly > h3 {
   margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
