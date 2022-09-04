@@ -1,17 +1,9 @@
-<!DOCTYPE html>
-<html prefix="og: https://ogp.me/ns#">
-  <head>
-    {{ partial "head.html" . }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/about.css">
-  </head>
-  <body>
-    {{ partial "header.html" . }}
-    <main>
-      <div class="inner">
-        <h1>覚道健太郎</h1>
-        {{ .Content }}
-        工事中です
-      </div>  
-    </main>
-  </body>
-</html>
+{{ define "additional_headers" }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/about.css">
+{{ end }}
+
+{{ define "main" }}
+  <h1>覚道健太郎</h1>
+  {{ .Content }}
+  工事中です
+{{ end }}

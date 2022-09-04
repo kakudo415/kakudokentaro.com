@@ -1,31 +1,23 @@
-<!DOCTYPE html>
-<html prefix="og: https://ogp.me/ns#">
-  <head>
-    {{ partial "head.html" . }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/list.css">
-  </head>
-  <body>
-    {{ partial "header.html" . }}
-    <main>
-      <div class="inner">
-        {{ $blog := where .Site.RegularPages "Section" "blog" }}
-        {{ range $blog.GroupByDate "2006" }}
-          <section class="yearly">
-            <h2>{{ .Key }}</h2>
-            {{ range .Pages.GroupByDate "01"}}
-              <section class="monthly">
-                <h3>{{ .Key }}</h3>
-                {{ range .Pages }}
-                  <article>
-                    <h4><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
-                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-                  </article>
-                {{ end }}
-              </section>
-            {{ end }}
-          </section>
-        {{ end }}
-      </div>  
-    </main>
-  </body>
-</html>
+{{ define "additional_headers" }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/list.css">
+{{ end }}
+
+{{ define "main" }}
+  {{ $blog := where .Site.RegularPages "Section" "blog" }}
+  {{ range $blog.GroupByDate "2006" }}
+    <section class="yearly">
+      <h2>{{ .Key }}</h2>
+      {{ range .Pages.GroupByDate "01"}}
+        <section class="monthly">
+          <h3>{{ .Key }}</h3>
+          {{ range .Pages }}
+            <article>
+              <h4><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+            </article>
+          {{ end }}
+        </section>
+      {{ end }}
+    </section>
+  {{ end }}
+{{ end }}

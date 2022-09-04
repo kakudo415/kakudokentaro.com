@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html prefix="og: https://ogp.me/ns#">
-  <head>
-    {{ partial "head.html" . }}
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/single.css">
-  </head>
-  <body>
-    {{ partial "header.html" . }}
-    <main>
-      <div class="inner">
-        <h1>{{ .Title }}</h1>
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02 15:04" }}</time>
-        {{ .Content }}
-        <section class="share">
-          <div>Share on</div>
-          <a href="https://twitter.com/intent/tweet?text={{ .Page.Title }} - {{ .Site.Title }}&url={{ .Permalink }}" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
-        </section>
-      </div>  
-    </main>
-  </body>
-</html>
+{{ define "additional_headers" }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/single.css">
+{{ end }}
+
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02 15:04" }}</time>
+  {{ .Content }}
+  <section class="share">
+    <div>Share on</div>
+    <a href="https://twitter.com/intent/tweet?text={{ .Page.Title }} - {{ .Site.Title }}&url={{ .Permalink }}" rel="nofollow noopener noreferrer" target="_blank">Twitter</a>
+  </section>
+{{ end }}
