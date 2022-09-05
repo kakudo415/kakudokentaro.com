@@ -1,10 +1,12 @@
 baseURL = 'https://kakudokentaro.com/'
-languageCode = 'ja-jp'
+languageCode = 'ja'
 title = 'Kakudo Kentaro'
-disableKinds = ["RSS", "sitemap"]
 
 [permalinks]
-  'blog' = '/:sections/:year/:month/:day/:filename/'
+  blog = '/:sections/:year/:month/:day/:filename/'
+
+[taxonomies]
+  tag = '/blog/tags/'
 
 [markup]
   [markup.highlight]
