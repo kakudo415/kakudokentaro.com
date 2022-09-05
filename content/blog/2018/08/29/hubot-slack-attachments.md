@@ -1,5 +1,5 @@
 ---
-title: "HubotでSlackにattachments付きのリッチなメッセージを送る"
+title: "【旧ブログ記事】HubotでSlackにattachments付きのリッチなメッセージを送る"
 date: 2018-08-29T00:00:00+09:00
 draft: false
 ---
