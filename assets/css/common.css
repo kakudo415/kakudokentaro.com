@@ -22,6 +22,7 @@ html {
 header {
   margin-bottom: 3rem;
   font-family: 'Inter', sans-serif;
+  border-bottom: 1px solid #0001;
 }
 
 header > div.inner {
