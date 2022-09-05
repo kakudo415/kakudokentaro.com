@@ -24,6 +24,15 @@ main p {
   line-height: 2rem;
 }
 
+main p.warn {
+  padding: 1rem;
+  background: #fff8e1;
+}
+
+main strong {
+  font-weight: bold;
+}
+
 main a {
   text-decoration: underline;
 }
@@ -43,13 +52,23 @@ main ul {
   margin: 2rem 0 2rem;
 }
 
+main li {
+  line-height: 2rem;
+}
+
+main ul > li::before {
+  content: "-";
+  display: inline-block;
+  margin-right: 0.75rem;
+}
+
 main blockquote {
   border-left: 0.25rem solid #0003;
   padding-left: 1rem;
 }
 
 main pre {
-  margin-bottom: 2rem;
+  margin: 2rem 0 2rem;
 }
 
 main pre > code {
