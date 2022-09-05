@@ -10,11 +10,23 @@
     <link rel="shortcut icon" href="{{ .Site.BaseURL }}assets/favicon.svg" type="image/svg+xml">
     {{ block "additional_headers" . }} <!-- Additional Headers --> {{ end }}
     <title>{{ if not .IsHome -}} {{- .Page.Title }} - {{ end  -}} {{- .Site.Title }}</title>
+    <!-- Description -->
+    {{ if .IsHome }}
+      <meta name="description" content="覚道 健太郎 = Kakudo Kentaro is a Undergraduate Student & Software Engineer.">
+      <meta property="og:description" content="覚道 健太郎 = Kakudo Kentaro is a Undergraduate Student & Software Engineer." />
+    {{ else }}
+      {{ if .Description }}
+        <meta name="description" content="{{ .Description }}">
+        <meta property="og:description" content="{{ .Description }}" />
+      {{ end }}
+    {{ end }}
     <!-- OGP -->
     <meta property="og:title" content="{{ if not .IsHome -}} {{- .Page.Title }} - {{ end  -}} {{- .Site.Title }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ .Site.BaseURL }}assets/icon.png">
     <meta property="og:url" content="{{ .Permalink }}">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kakudo415">
   </head>
   <body>
     <header>
