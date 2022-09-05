@@ -56,7 +56,8 @@ main pre > code {
   display: block;
   width: 100%;
   padding: 1rem;
-  font: 1rem monospace;
+  font: 0.875rem monospace;
+  line-height: 1.25rem;
 }
 
 main section.share > a:hover {
