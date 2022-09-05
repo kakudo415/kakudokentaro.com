@@ -1,0 +1,79 @@
+main h1 {
+  margin: 3rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+main h2 {
+  margin: 2.5rem 0 -1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+}
+
+main h3 {
+  margin: 2rem 0 -1rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 2.125rem;
+}
+
+main p {
+  margin: 2rem 0 2rem;
+  line-height: 2rem;
+}
+
+main a {
+  text-decoration: underline;
+}
+
+main a:hover {
+  text-decoration: none;
+}
+
+main code {
+  padding: 0.25rem 0.375rem;
+  font: 0.875rem monospace;
+  background: #3331;
+  border-radius: 0.125rem;
+}
+
+main blockquote {
+  border-left: 0.25rem solid #0003;
+  padding-left: 1rem;
+}
+
+main pre {
+  margin-bottom: 2rem;
+}
+
+main pre > code {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font: 0.8rem monospace;
+  color: #FFF;
+  background: #333;
+}
+
+main section.share > a:hover {
+  border: 1px solid #000A;
+}
+
+@media (min-width: 960px) {
+  main h1 {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  
+  main h3 {
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+  }
+}
