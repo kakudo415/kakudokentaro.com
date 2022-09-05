@@ -5,3 +5,8 @@ disableKinds = ["RSS", "sitemap"]
 
 [permalinks]
   'blog' = '/:sections/:year/:month/:day/:filename/'
+
+[markup]
+  [markup.highlight]
+    style = 'github'
+    tabWidth = 2
