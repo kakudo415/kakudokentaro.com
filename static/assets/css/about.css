@@ -2,7 +2,25 @@ main {
   font-family: 'Inter', sans-serif;
 }
 
+main section.sns {
+  display: flex;
+}
+
+main section.sns > a {
+  display: block;
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #0003;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+main section.sns > a:hover {
+  border: 1px solid #000A;
+}
+
 main h2 {
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
@@ -15,6 +33,7 @@ main h2 ~ h2 {
 }
 
 main h3 {
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 
@@ -27,7 +46,9 @@ main h3 ~ h3 {
 }
 
 main h4 {
+  margin-top: 1rem;
   margin-bottom: 0;
+  line-height: 2rem;
 }
 
 main h4 ~ * {
@@ -43,5 +64,5 @@ main p {
 }
 
 main ul {
-  margin: 1rem 0;
+  margin: 0;
 }

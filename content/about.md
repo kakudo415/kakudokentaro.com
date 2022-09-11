@@ -7,6 +7,12 @@ layout: "about"
 
 I am a Software Engineer who is interested in Web Development.
 
+<section class="sns">
+  <a href="https://twitter.com/kakudo415">Twitter</a>
+  <a href="https://github.com/kakudo415">GitHub</a>
+  <a href="https://www.youtube.com/kakudo415">YouTube</a>
+</section>
+
 ## Skills
 
 ### Programming Languages
@@ -32,9 +38,11 @@ Native.
 
 #### Korean
 
-## Works
+## Projects
 
-### 
+### Owned
+
+### Contributed
 
 ## Experience
 
