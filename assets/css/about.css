@@ -4,6 +4,7 @@ main {
 
 main section.sns {
   display: flex;
+  margin: 1rem 0;
 }
 
 main section.sns > a {
