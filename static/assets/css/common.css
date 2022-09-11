@@ -59,28 +59,6 @@ time {
   font-family: 'Inter', sans-serif;
 }
 
-/* inline-blockにして、行末に付けられたらベストかも？（上手く行の中心にできない） */
-
-a.unread-marker {
-  display: flex;
-  align-items: center;
-}
-
-a.unread-marker::after {
-  content: "";
-  display: block;
-  height: 0.5rem;
-  width: 0.5rem;
-  margin-left: auto;
-  flex-shrink: 0;
-  border-radius: 50%;
-  background: #0077C8;
-}
-
-a.unread-marker:visited::after {
-  background: #FFF;
-}
-
 @media (min-width: 960px) {
   header > div.inner h1 {
     font-size: 1.25rem;

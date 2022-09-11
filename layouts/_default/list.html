@@ -12,7 +12,7 @@
           <h3>{{ .Key }}</h3>
           {{ range .Pages }}
             <article>
-              <h4><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
+              <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
               <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
             </article>
           {{ end }}

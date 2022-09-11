@@ -73,7 +73,7 @@ tags: []
 ```html
 {{ range .Pages }}
   <article>
-    <h4><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
+    <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
   </article>
 {{ end }}
@@ -88,7 +88,7 @@ tags: []
 ```html
 {{ range .Site.Taxonomies.tags.ByCount }}
   <article>
-    <h4><a href="{{ $.Site.BaseURL }}blog/tags/{{ .Name | urlize }}/" class="unread-marker"># {{ .Name }} ({{ .Count }})</a></h2>
+    <h4><a href="{{ $.Site.BaseURL }}blog/tags/{{ .Name | urlize }}/"># {{ .Name }} ({{ .Count }})</a></h2>
   </article>
 {{ end }}
 ```
