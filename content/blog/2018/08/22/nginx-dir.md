@@ -1,7 +1,7 @@
 ---
 title: "nginxでrewriteを使わずにディレクトリ構造にするproxy_pass"
 date: 2018-08-22T00:00:00+09:00
-tags: ["Former Blog Post"]
+tags: ["Former Blog Post", "Web", "nginx"]
 draft: false
 ---
 
