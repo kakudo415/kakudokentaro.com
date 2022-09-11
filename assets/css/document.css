@@ -82,6 +82,7 @@ main pre > code {
   padding: 1rem;
   font: 0.875rem monospace;
   line-height: 1.25rem;
+  overflow-x: scroll;
 }
 
 main section.share > a:hover {
