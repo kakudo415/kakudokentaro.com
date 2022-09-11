@@ -2,6 +2,7 @@
 title: "HugoとGitHub Pagesでハマったこと"
 date: 2022-09-01T10:54:12+09:00
 draft: false
+tags: ['Web', 'Hugo']
 ---
 
 このページを作る過程でハマったこととその対処法について書きます。
