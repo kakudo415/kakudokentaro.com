@@ -1,12 +1,16 @@
 baseURL = 'https://kakudokentaro.com/'
 languageCode = 'ja'
+defaultContentLanguage = 'ja'
 title = 'Kakudo Kentaro'
-
-[permalinks]
-  blog = '/:sections/:year/:month/:day/:filename/'
+disableKinds = ['taxonomyTerm'] # Unknown why this works.
+hasCJKLanguage = true
 
 [taxonomies]
-  tag = '/blog/tags/'
+  tag = 'tags'
+
+[permalinks]
+  '/blog' = '/:sections/:year/:month/:day/:filename/'
+  '/tags' = '/blog/tags/:slug'
 
 [markup]
   [markup.highlight]

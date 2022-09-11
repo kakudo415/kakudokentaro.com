@@ -1,0 +1,17 @@
+{{ define "additional_headers" }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/list.css">
+{{ end }}
+
+{{ define "main" }}
+  <section class="yearly">
+    <h2>Tags</h2>
+    <section class="monthly">
+      {{ range .Site.Taxonomies.tags.ByCount }}
+        <article>
+          <h4><a href="{{ $.Site.BaseURL }}blog/tags/{{ .Name | urlize }}/" class="unread-marker"># {{ .Name }}</a></h2>
+          <time>{{ .Count }} posts</time>
+        </article>
+      {{ end }}
+    </section>
+  </section>
+{{ end }}

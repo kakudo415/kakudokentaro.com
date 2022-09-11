@@ -1,5 +1,38 @@
+main ul.tags {
+  margin: 1rem 0 3rem;
+  font-family: 'Inter', sans-serif;
+}
+
+main ul.tags li {
+  display: inline-block;
+  margin: 0 0.5rem 0.5rem 0;
+  line-height: 1rem;
+}
+
+main ul.tags li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #0003;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+main ul.tags li a::before {
+  content: "#";
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+main ul.tags li a:hover {
+  border: 1px solid #000A;
+}
+
+main ul.tags li::before {
+  display: none;
+}
+
 main time {
-  margin: 0 0 3rem;
+  margin: 0 0 1rem;
   display: block;
   font-size: 0.875rem;
   color: #000A;

@@ -6,6 +6,11 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02 15:04" }}</time>
+  <ul class="tags">
+  {{ range .Params.tags }}
+    <li><a href="{{ $.Site.BaseURL }}blog/tags/{{ . | urlize}}/">{{ . }}</a></li>
+  {{ end }}
+  </ul>
   {{ .Content }}
   <section class="share">
     <div>Share on</div>

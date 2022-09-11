@@ -1,0 +1,17 @@
+{{ define "additional_headers" }}
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/list.css">
+{{ end }}
+
+{{ define "main" }}
+    <section class="yearly">
+      <h2># {{ .Title }}</h2>
+        <section class="monthly">
+          {{ range .Pages }}
+            <article>
+              <h4><a href="{{ .Permalink }}" class="unread-marker">{{ .Title }}</a></h2>
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+            </article>
+          {{ end }}
+        </section>
+    </section>
+{{ end }}
