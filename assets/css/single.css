@@ -43,15 +43,15 @@ main section.share {
 }
 
 main section.share > div {
-  margin-right: 1rem;
+  margin-right: 0.75rem;
   padding: 0.5rem 0;
 }
 
 main section.share > a {
-  margin-right: 1rem;
-  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.75rem;
   border: 1px solid #0003;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   text-decoration: none;
 }
 
