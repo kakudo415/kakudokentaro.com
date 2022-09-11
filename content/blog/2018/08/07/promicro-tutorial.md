@@ -1,6 +1,7 @@
 ---
-title: "【旧ブログ記事】初マイコンにPro Microを選んでしまったので、使い方メモ"
+title: "初マイコンにPro Microを選んでしまったので、使い方メモ"
 date: 2018-08-07T00:00:00+09:00
+tags: ["Former Blog Post"]
 draft: false
 ---
 

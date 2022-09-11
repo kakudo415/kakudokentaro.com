@@ -1,6 +1,7 @@
 ---
-title: "【旧ブログ記事】二代目のブログができました"
+title: "二代目のブログができました"
 date: 2018-08-05T00:00:00+09:00
+tags: ["Former Blog Post"]
 draft: false
 ---
 
