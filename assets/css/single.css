@@ -1,6 +1,5 @@
 main ul.tags {
   margin: 1rem 0 2.5rem;
-  font-family: 'Inter', sans-serif;
   color: #000A;
 }
 
@@ -39,7 +38,6 @@ main section.share {
   margin: 3rem 0 2rem;
   display: flex;
   align-items: center;
-  font-family: 'Inter', sans-serif;
 }
 
 main section.share > div {
