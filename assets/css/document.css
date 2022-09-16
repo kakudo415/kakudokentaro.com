@@ -40,6 +40,7 @@ main strong {
 
 main ruby > rt {
   font-size: 50%;
+  line-height: 1;
 }
 
 main a {
