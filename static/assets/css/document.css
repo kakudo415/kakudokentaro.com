@@ -38,6 +38,10 @@ main strong {
   font-weight: bold;
 }
 
+main ruby > rt {
+  font-size: 50%;
+}
+
 main a {
   text-decoration: underline;
 }
