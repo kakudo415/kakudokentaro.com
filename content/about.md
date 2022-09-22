@@ -40,6 +40,10 @@ Native.
 
 ### Owned
 
+#### [Sura](https://github.com/kakudo415/sura)
+
+A CLI Text Editor written in Rust.
+
 ### Contributed
 
 ## Experience
