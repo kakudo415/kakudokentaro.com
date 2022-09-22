@@ -51,11 +51,11 @@ main a:hover {
   text-decoration: none;
 }
 
-main code {
+main p code {
   display: inline-block;
   margin: 0 0.25rem;
   padding: 0.25rem 0.375rem;
-  font: 0.875rem/1 monospace;
+  font: 0.875rem / 1 monospace;
   background: #3331;
   border-radius: 0.125rem;
   position: relative;
@@ -100,8 +100,8 @@ main pre > code {
   display: block;
   width: 100%;
   padding: 1rem;
-  font: 0.875rem monospace;
-  line-height: 1.25rem;
+  font: 0.875rem / 1.25rem monospace;
+  background: #3331;
   overflow-x: scroll;
 }
 
