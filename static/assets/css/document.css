@@ -62,12 +62,20 @@ main p code, main ul code, main ol code {
   bottom: 0.0625rem;
 }
 
-main ul {
+main ol, main ul {
   margin: 2rem 0 2rem;
+  counter-reset: item;
 }
 
 main li {
   line-height: 2rem;
+}
+
+main ol > li::before {
+  counter-increment: item;
+  content: counter(item)".";
+  display: inline-block;
+  margin-right: 0.75rem;
 }
 
 main ul > li::before {
