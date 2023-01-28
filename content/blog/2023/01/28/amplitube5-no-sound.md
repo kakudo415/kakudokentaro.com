@@ -57,3 +57,7 @@ draft: false
   </VALUE>
 </PROPERTIES>
 ```
+
+## 参考文献
+
+- [Windowsにて、AmpliTube 5で音が出ないときの対処法](https://note.com/ikmultimedia_jp/n/n0b11b4fb4d08)
