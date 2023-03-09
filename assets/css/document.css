@@ -1,3 +1,7 @@
+/* main {
+  overflow: hidden;
+} */
+
 main h1 {
   margin: 3rem 0 1rem;
   font-size: 1.5rem;
@@ -90,8 +94,18 @@ main li ol, main li ul {
 }
 
 main table {
+  display: block;
   margin: 2rem 0;
   border-collapse: collapse;
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+main table::-webkit-scrollbar {
+  display: none;
 }
 
 main table td,
