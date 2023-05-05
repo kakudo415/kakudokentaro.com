@@ -37,6 +37,8 @@ macOS標準のウィンドウキャプチャ、陰がついてて無駄にデカ
 
 ## ATOK キーカスタマイズ（Windowsのみ）
 
+![ATOK キーカスタマイズ](../key-customizer-windows.png)
+
 「日本語入力ON/OFF」の行をすべて「Ctrl+スペース」にする。
 
 ## キー・ローマ字カスタマイザ（macOSのみ）
