@@ -1,0 +1,4 @@
+# Redirects are handled by Netlify
+/       https://kakudo.org/
+/about/ https://kakudo.org/about/
+/blog/* https://kakudo.org/:splat
