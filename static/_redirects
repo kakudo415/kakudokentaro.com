@@ -1,4 +1,27 @@
 # Redirects are handled by Netlify
-/       https://kakudo.org/       301!
+/ https://kakudo.org/ 301!
+
 /about/ https://kakudo.org/about/ 301!
-/blog/* https://kakudo.org/:splat 301!
+
+/blog/                                                           https://kakudo.org/blog/                                                301!
+/blog/tags/                                                      https://kakudo.org/blog/tags/                                           301!
+/blog/2022/09/03/unread-marker/                                  https://kakudo.org/blog/unread-markers-on-blog/                         301!
+/blog/2022/09/17/lab-book/                                       https://kakudo.org/blog/textbook-found-at-shimogamo/                    301!
+/blog/2022/09/01/hugo-failure/                                   https://kakudo.org/blog/mistakes-with-hugo/                             301!
+/blog/2022/09/01/points/                                         https://kakudo.org/blog/3rd-generation-blog/                            301!
+/blog/2022/09/06/hugo-taxonomy/                                  https://kakudo.org/blog/hugo-taxonomies/                                301!
+/blog/2022/09/23/unicode-utf8/                                   https://kakudo.org/blog/unicode-and-utf8-with-rust/                     301!
+/blog/2022/12/21/global-variable-in-rust/                        https://kakudo.org/blog/global-variable-in-rust/                        301!
+/blog/2023/03/09/davinci-resolve-shortcut/                       https://kakudo.org/blog/davinci-resolve-shortcuts/                      301!
+/blog/2023/04/17/gdb-usage/                                      https://kakudo.org/blog/gdb-shortcuts/                                  301!
+/blog/2023/05/03/mermaid-in-github-pages/                        https://kakudo.org/blog/mermaid-in-github-pages/                        301!
+/blog/2023/05/05/lab-wiki-on-github-pages/                       https://kakudo.org/blog/lab-wiki-on-github-pages/                       301!
+/blog/2023/05/05/atok-settings/                                  https://kakudo.org/blog/atok-settings/                                  301!
+/blog/2023/05/23/disable-chrome-background-invisibility-feature/ https://kakudo.org/blog/disable-chrome-background-invisibility-feature/ 301!
+/blog/2023/05/14/lab-network-tunneling/                          https://kakudo.org/blog/cloudflare-tunnels-into-lab/                    301!
+/blog/2023/01/28/amplitube5-no-sound/                            https://kakudo.org/blog/amplitube5-no-sound/                            301!
+/blog/2018/08/05/blog2gen/                                       https://kakudo.org/blog/2nd-generation-blog/                            301!
+/blog/2018/08/29/hubot-slack-attachments/                        https://kakudo.org/blog/hubot-slack-attachments/                        301!
+/blog/2018/08/07/promicro-tutorial/                              https://kakudo.org/blog/start-using-promicro/                           301!
+/blog/2018/08/09/new-app-domain/                                 https://kakudo.org/blog/new-app-domain/                                 301!
+/blog/2018/08/22/nginx-dir/                                      https://kakudo.org/blog/nginx-sub-directory-location/                   301!
